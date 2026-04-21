@@ -1,0 +1,23 @@
+.sidebar {
+  background: transparent;
+}
+
+.category-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.category-nav a {
+  display: block;
+  background: #4b4bc4;
+  color: white;
+  padding: 0.85rem 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.category-nav a:hover {
+  background: #3d3dae;
+}
